@@ -1,0 +1,460 @@
+#login {
+    border: 1px solid #E0E0E0;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    transition: border-radius 0.2s ease-in;
+    margin-right:12px ;
+}
+
+#login:hover {
+    background-color: #E0E0E0;
+    border-radius: 15%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-content {
+    padding-top: 0px;
+    padding-bottom: 1px;
+}
+
+.stores-card {
+    width: 100%;
+}
+
+.nav-bar {
+    box-shadow: 0px 0px 16px rgba(75, 74, 74, 0.473);
+    height: 73px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    max-width: 100%;
+    background-color: #FFFFFF;
+}
+
+.navbar-brand {
+    margin-top: 14px;
+}
+
+.navbar-box {
+    float: right;
+}
+
+.container {
+    padding: 0 var(--container-padding-x);
+    margin: auto;
+}
+
+.store-name {
+    font-size: 16px;
+    color: #1D1D1D;
+    padding-top: 16px;
+}
+
+.store-type {
+    font-size: 14px;
+    color: #626262;
+    padding-top: 4px;
+}
+
+.stores-card-pic {
+    width: 100%;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+
+.store-time {
+    color: #1D1D1D;
+    font-size: 13px; 
+    padding-top: 6px;
+    margin-bottom: 25px;
+}
+
+.search {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+}
+  
+.search-input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b9b9b960;
+}
+
+/* Для экранов меньше 576px (мобильные устройства) */
+
+
+.Resto {
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+
+::placeholder {
+    color: #83818185;
+}
+
+.foot {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #262626;
+    max-width: 100%;
+    height: 100%;
+}
+
+.store-menu {
+    padding-bottom: 70px;
+}
+
+.logo-uber {
+    padding-top: 40px;
+}
+
+.form-select {
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    padding-left: 45px;
+    padding-right: 110px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 2%;
+}
+
+.form-select:hover {
+    background-color: #3b3b3be0;
+}
+
+.link2 {
+    font-size: 11px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.resh {
+    color: #49A144;
+    padding-right: 0px;
+}
+
+.sect {
+    border-top: 1px solid rgba(110, 110, 110, 0.7);
+}
+
+.sect2 {
+    background-image: url("https://uberstepik.netlify.app/img/Restaurant/fon.png");
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    height: 364px;
+    width: 100%;
+}
+
+.stores-card:hover {
+    text-decoration: none;
+}
+
+.footer-links-column {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footer-links {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 32px;
+    flex-flow: row;
+}
+
+.socials-symbols {
+    display: flex;
+    gap: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.footer-link a{
+    color: #FFFFFF;
+}       
+
+.footer-link2 a{
+    color: #FFFFFF;
+}    
+
+.footer-link  a:hover{
+    color: #57AD56;
+    text-decoration: none;
+}
+
+
+.footer-link {
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.footer-link2 {
+    font-size: 11px;
+}
+
+.footer-link2 a:hover{
+    color: #57AD56;
+    text-decoration: none;
+}
+
+.icon-link {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.icon-link:hover {
+    transform: translateY(-1px);
+}
+
+.stores-card-pic img {
+    transition: 0.3s;
+    object-fit: cover;
+    width: 100%;
+}
+
+.stores-card-pic img:hover {
+    transform: scale(1.06);
+    
+}
+
+.footer__underlogoline {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.footer__underaboutline {
+    padding-bottom: 0rem;
+    padding-top: 13px;
+}
+
+.footer__underdlline {
+    padding-bottom: 1rem;
+}
+
+.footer-legal {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.app {
+    display: flex;
+    gap: 10px;
+}
+
+.box-content {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    background-color: #FFFFFF;
+}
+
+
+
+.linkUber {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.lang-selector-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 19px;
+}
+
+.form-select {
+    padding: 10px 100px 10px 45px;
+    cursor: pointer;
+}
+
+.footer-dw-labels {
+    padding: 25px 0 15px 0;
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+}
+
+.store-name:hover {
+    text-decoration: none;
+}
+
+.transition-fix {
+    width: 100%;
+}
+
+.stores-card {
+    text-decoration: none;
+}
+
+.footer-legal {
+    padding: 25px 0 10px 0;
+    margin: 0;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    background-color: rgba(110, 110, 110, 0.7);
+}
+
+.stores-header {
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+.snacks-header {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+.select-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px; /* настройте положение иконки */
+    transform: translateY(-50%);
+    pointer-events: none; /* чтобы иконка не мешала выбору элемента */
+}
+
+.bottom-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.country {
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 400px;
+    padding-top: 11px ;
+}
+
+.greeting {
+    max-width: var(--max-width);
+    margin: var(--margin_0_auto);
+}
+
+.greeting-box {
+    background-color: var(--color-1);
+    box-shadow: 0 5px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 5px;
+    margin: 80px 0;
+}
+
+.time {
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: var(--font-size-13);
+    line-height: 15.23px;
+    font-weight: 400px;
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 42.19px;
+    font-weight: var(--font-weight-400);
+    color: var(--color-5);
+    margin-bottom: 62px;
+}
+
+.country {
+    font-size: 14px;
+    color: #626262;
+}
+
+.header-menu {
+    height: 80px;
+    border-bottom: 1px solid #7575753f;
+    margin-bottom: 40px;
+}
+
+.filter {
+    font-size: 16px;
+    color: #626262;
+    text-decoration: none;
+    transition: transform 0.2s ease;
+    font-weight: 520;
+    line-height: 19px;
+}
+
+
+.filter:hover {
+    text-decoration: none;
+    color: #327430;
+}
+
+.filter:focus {
+    color: #338031;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.scroll-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border: none;
+    cursor: pointer;
+    opacity: 40%;
+    transition: opacity 0.3s ease;
+}
+
+
+.scroll-top-btn:hover {
+    opacity: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
